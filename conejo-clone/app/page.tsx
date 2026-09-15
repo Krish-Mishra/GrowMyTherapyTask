@@ -430,6 +430,208 @@ export default function Home() {
           />
         </div>
       </div>
+
+      {/* Section 7 */}
+      <div className="w-full bg-white pt-[100px] pb-[100px] flex items-end">
+        {/* Left Image */}
+        <div className="w-[53%] relative h-[500px]">
+          <Image
+            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/6f1501bf-74a5-4c57-a957-8ce4c5876848/Jennifer+A+-+Images+%285%29.jpg?format=2500w"
+            alt="Family on beach"
+            fill
+            className="object-cover"
+            unoptimized
+          />
+        </div>
+
+        {/* Right Text */}
+        <div className="flex-1 flex flex-col justify-end pl-18 pr-16">
+          <h2 className="text-[2.75rem] leading-[1.25] text-[#2b2b2b] font-serif font-extralight">
+            Honoring where you’ve <br />
+            been <span className="italic text-[#7ca8a6] text-[1.2em] font-muli align-middle">&amp;</span> helping shape <br />
+            where you’re headed.
+          </h2>
+        </div>
+      </div>
+
+      {/* Section 8 */}
+      <div className="w-full bg-white py-[120px] flex justify-center px-10">
+        <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16">
+          {/* Left Heading */}
+          <div className="col-span-4 flex flex-col">
+            <h3 className="text-[2.25rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight">
+              <span className="">Our </span>
+              <span className="italic text-[#7ca8a6] text-[3.25rem] font-muli">specialties</span><br />
+              <span className="">include...</span>
+            </h3>
+          </div>
+
+          {/* Right Grid Content */}
+          <div className="col-span-8 grid grid-cols-2 gap-x-16 gap-y-24">
+
+            {/* Item 1 */}
+            <div className="flex flex-col">
+              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Trauma</h4>
+              <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
+                We don't always know when and how we've experienced trauma. In therapy, we'll work together to help you process your past, understand what's causing you to stay "stuck," and regain a sense of safety, control, and hope. You don't have to carry your burdens alone.
+              </p>
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+                LEARN MORE
+              </a>
+            </div>
+
+            {/* Item 2 */}
+            <div className="flex flex-col">
+              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">EMDR</h4>
+              <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
+                Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
+              </p>
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+                LEARN MORE
+              </a>
+            </div>
+
+            {/* Item 3 */}
+            <div className="flex flex-col">
+              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Dissociation</h4>
+              <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
+                The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we'll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.
+              </p>
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+                LEARN MORE
+              </a>
+            </div>
+
+            {/* Item 4 */}
+            <div className="flex flex-col">
+              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Special Needs Parenting</h4>
+              <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
+                Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
+              </p>
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+                LEARN MORE
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* Section 9 */}
+      <div className="w-full bg-[#f6f4ee] py-[150px] flex justify-between items-end">
+        {/* Left Image */}
+        <div className="w-[12%] relative h-[500px]">
+          <Image
+            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/1b9495e0-ce39-4826-9df9-e24de99da82f/Jennifer+A+-+Images+%2812%29.jpg?format=500w"
+            alt="Person on beach"
+            fill
+            className="object-cover object-center"
+            unoptimized
+          />
+        </div>
+
+        {/* Center Text */}
+        <div className="w-[48%] flex flex-col pr-10 pl-18">
+          <p className="text-[15px] tracking-[0.2em] text-[#555] font-muli uppercase mb-24">
+            SCHEDULE AN APPOINTMENT
+          </p>
+          <h2 className="text-[2.5rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight mb-10">
+            Find a therapist who is the<br /> right fit for <span className="italic text-[#7ca8a6] text-[1.1em] font-muli">you</span>.
+          </h2>
+          <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mb-8 pr-12">
+            Coming to therapy is a courageous decision, and connecting with the right kind of therapist makes all the difference. We understand that your journey is personal, and we're here to support you with care and understanding every step of the way. Each member of our team brings dedicated expertise and a commitment to support you in your struggles. We want you to feel prioritized, understood, and empowered.
+          </p>
+          <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mb-8">
+            Click the button below to schedule an appointment.
+          </p>
+          <a href="#" className="text-[13px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase border border-[#2b2b2b] rounded-full px-8 py-4 w-fit hover:bg-[#2b2b2b] hover:text-[#f6f4ee] transition-colors">
+            BOOK NOW
+          </a>
+        </div>
+
+        {/* Right Image */}
+        <div className="w-[35%] relative h-[620px]">
+          <Image
+            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7557312a-044d-4489-a9d1-6f43ee9888b1/Jennifer+A+-+Images+%2811%29.jpg?format=1000w"
+            alt="Person on beach"
+            fill
+            className="object-cover object-center"
+            unoptimized
+          />
+        </div>
+      </div>
+
+      {/* Footer Main */}
+      <div className="w-full bg-white pt-[50px] pb-[100px] flex justify-center px-6">
+        <div className="w-full max-w-[1300px] grid grid-cols-12 gap-8">
+          {/* Logo & Description */}
+          <div className="col-span-4 pr-12">
+            <Image
+              src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7116bf54-a0e1-4128-81d8-24fd9960c7ed/Conejo+Valley+Counseling+Logo.png?format=1500w"
+              alt="Conejo Valley Family Counseling"
+              width={500}
+              height={300}
+              className="w-[600px] h-auto -ml-4"
+              unoptimized
+            />
+            <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mt-4">
+              We want to make getting started simple. You're welcome to come into our office in Newbury Park or schedule virtual appointments from anywhere in CA—whatever works best for you.
+            </p>
+          </div>
+
+          {/* Navigate */}
+          <div className="col-span-2 flex flex-col pt-4">
+            <h4 className="text-[17px] tracking-[0.15em] text-[#555] font-muli uppercase mb-6">NAVIGATE</h4>
+            <div className="flex flex-col gap-2">
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Home</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">About</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">FAQs</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Contact</a>
+            </div>
+          </div>
+
+          {/* Our Team */}
+          <div className="col-span-3 flex flex-col pt-4">
+            <h4 className="text-[17px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase mb-6">OUR TEAM</h4>
+            <div className="flex flex-col gap-2">
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Jennifer Anderson</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Heather Williams-Baumgart</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Autumn Bodily</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Candace Bletscher</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Samantha Johnson</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Andrea Watkins</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Rosa Gomez</a>
+              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Chad Flores</a>
+            </div>
+          </div>
+
+          {/* Contact */}
+          <div className="col-span-3 flex flex-col pt-4">
+            <h4 className="text-[17px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase mb-6">CONTACT</h4>
+            <div className="flex flex-col gap-1">
+              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">925 Broadbeck Dr</p>
+              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">Suites 200 and 225</p>
+              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">Newbury Park, CA 91320</p>
+            </div>
+            <div className="flex flex-col gap-1 mb-8">
+              <a href="mailto:info@conejovalleycounseling.com" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">info@conejovalleycounseling.com</a>
+              <a href="tel:805.242.3120" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">805.242.3120</a>
+            </div>
+            <em className="text-[15px] leading-[1.8] text-[#2b2b2b] font-muli font-light">
+              Serving Thousand Oaks, Westlake Village, Camarillo, Moorpark, &amp; Simi Valley
+            </em>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer Bottom Bar */}
+      <div className="w-full bg-[#90BEC3] py-3 flex justify-center px-10">
+        <div className="w-full max-w-[1200px]">
+          <p className="text-[15px] text-white font-muli font-light">
+            <a href="#" className="hover:opacity-80 transition-opacity">Terms</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Disclaimer</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Website by Walker Strategy Co.</a>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
