@@ -36,13 +36,13 @@ export default function Home() {
                     href="#specialities"
                     className="text-white hover:opacity-80 transition-opacity"
                   >
-                    SPECIALITIES
+                    SPECIALTIES
                   </a>
                   <a
                     href="#benefits"
                     className="text-white hover:opacity-80 transition-opacity"
                   >
-                    BENIFITS
+                    BENEFITS
                   </a>
                   <a
                     href="#faqs"
@@ -66,7 +66,7 @@ export default function Home() {
       <div className="py-[50px] grid grid-cols-12 items-center">
         <div className="col-span-4 h-[572px] relative overflow-hidden">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/80513bd1-30ee-4a2d-aaf6-782d9be095ce/Jennifer+A+-+Images+%2866%29.jpg?format=1500w"
+            src="https://images.unsplash.com/photo-1758272008311-80e0f1f48306?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QSUyMGNvYXN0YWwlMkMlMjBtaW5pbWFsaXN0aWMlMjBuYXR1cmUlMjBzY2VuZXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Conejo Valley Family Counseling"
             fill
             className="object-cover"
@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className="col-span-1 h-[420px] relative overflow-hidden mt-32">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/3643a7ac-ff62-4927-b96e-9e65ecff0521/Jennifer+A+-+Images+%2867%29.jpg?format=300w"
+            src="https://media.istockphoto.com/id/2290236344/photo/flock-of-eurasian-whimbrels-flying-over-a-calm-ocean-during-coastal-migration-with-copy-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=fIADUuOMHSCCEW3edWi1LnEDaTBFRoK_Nn4e5A50wQI="
             alt="Ocean waves"
             fill
             className="object-cover object-right"
@@ -149,15 +149,25 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="col-span-4 relative min-h-[600px] w-full">
-          <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7a40691c-70a5-4307-b9ae-974592087a8f/Jennifer+A+-+Images+%283%29.jpg?format=1500w"
-            alt="Section 2 Image"
-            fill
-            className="object-cover object-left"
-            loading="lazy"
-            unoptimized
-          />
+        <div className="col-span-4 flex flex-col">
+          <div className="relative min-h-[600px] w-full">
+            <Image
+              src="/therapist.jpg"
+              alt="Dr. Maya Reynolds"
+              fill
+              className="object-cover object-center"
+              loading="lazy"
+              unoptimized
+            />
+          </div>
+          <div className="mt-6 flex flex-col items-center">
+            <span className="text-[19px] tracking-[0.15em] font-serif text-[#393E50] uppercase leading-tight">
+              Dr. Maya Reynolds, PSYD
+            </span>
+            <span className="text-[14px] tracking-[0.2em] font-muli text-[#6E7E65] uppercase leading-tight mt-1">
+              Clinical Psychologist
+            </span>
+          </div>
         </div>
       </div>
 
@@ -175,8 +185,8 @@ export default function Home() {
           <div className="flex flex-col">
             <div className="relative aspect-[4/5] w-full mb-10">
               <Image
-                src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/066f60e6-1354-4d47-a586-ab3f2f2ba612/Jennifer+A+-+Images+%288%29.jpg?format=1500w"
-                alt="Adults"
+                src="https://images.unsplash.com/photo-1617720197345-5e5235ec6220?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVhY2V8ZW58MHx8MHx8fDA%3D"
+                alt="Anxiety and Overthinking"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -198,8 +208,8 @@ export default function Home() {
           <div className="flex flex-col">
             <div className="relative aspect-[4/5] w-full mb-10">
               <Image
-                src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/d0157712-388c-4800-aada-c78db97ee966/Jennifer+A+-+Images+%289%29.jpg?format=1500w"
-                alt="Couples"
+                src="https://plus.unsplash.com/premium_photo-1764425842051-5dafa5732e43?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QSUyMHNvbGl0YXJ5JTIwYWR1bHQlMjB3YWxraW5nJTIwb24lMjBhJTIwcGF0aCUyMG9yJTIwc3RhbmRpbmclMjBpbiUyMGElMjBwZWFjZWZ1bCUyMGVudmlyb25tZW50fGVufDB8fDB8fHww"
+                alt="Lingering Trauma"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -221,8 +231,8 @@ export default function Home() {
           <div className="flex flex-col">
             <div className="relative aspect-[4/5] w-full mb-10">
               <Image
-                src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/d5d62bf4-34a7-4bf4-bf00-e1169863ace7/Jennifer+A+-+Images+%2810%29.jpg?format=1500w"
-                alt="Children & Teens"
+                src="https://images.unsplash.com/photo-1605784401368-5af1d9d6c4dc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fEElMjBjbG9zZWQlMjBsYXB0b3AlMkMlMjBhJTIwY29tZm9ydGFibGUlMjBlbXB0eSUyMGNoYWlyJTJDJTIwYSUyMHN0ZWFtaW5nJTIwY3VwJTIwb2YlMjB0ZWElMkMlMjBvciUyMGFuJTIwYWR1bHQlMjByZXN0aW5nJTIwdGhlaXIlMjBleWVzJTIwb24lMjBhJTIwY29tZm9ydGFibGUlMjBzb2ZhfGVufDB8fDB8fHww"
+                alt="Burnout and Perfectionism"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -394,8 +404,8 @@ export default function Home() {
         </div>
         <div className="w-[24%] relative min-h-[625px] ml-11">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/389808ad-7273-4e03-a32b-c172aa735f12/Jennifer+A+-+Images+%286%29.jpg?format=750w"
-            alt="Woman and child on beach"
+            src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlYWNlZnVsfGVufDB8fDB8fHww"
+            alt="Peaceful nature scene"
             fill
             className="object-cover"
             unoptimized
@@ -408,8 +418,8 @@ export default function Home() {
         {/* Left Image */}
         <div className="w-[53%] relative h-[500px]">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/6f1501bf-74a5-4c57-a957-8ce4c5876848/Jennifer+A+-+Images+%285%29.jpg?format=2500w"
-            alt="Family on beach"
+            src="https://images.unsplash.com/photo-1677475455583-6fd07f04914c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U29tZW9uZSUyMHNpdHRpbmclMjBxdWlldGx5JTIwb24lMjBhJTIwY29tZm9ydGFibGUlMjBjaGFpciUyMGxvb2tpbmclMjBvdXQlMjBhJTIwd2luZG93JTJDJTIwb3IlMjBzdGFuZGluZyUyMGFsb25lJTIwb24lMjBhJTIwcXVpZXQlMjBiZWFjaHxlbnwwfHwwfHx8Mg%3D%3D"
+            alt="Someone sitting quietly on a beach"
             fill
             className="object-cover"
             unoptimized
@@ -494,8 +504,8 @@ export default function Home() {
         {/* Left Image */}
         <div className="w-[12%] relative h-[500px]">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/1b9495e0-ce39-4826-9df9-e24de99da82f/Jennifer+A+-+Images+%2812%29.jpg?format=500w"
-            alt="Person on beach"
+            src="https://images.unsplash.com/photo-1758799819958-6bfece84708a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHN0b25lcyUyMHN0YWNrZWR8ZW58MHx8MHx8fDI%3D"
+            alt="Stacked stones"
             fill
             className="object-cover object-center"
             unoptimized
@@ -517,15 +527,15 @@ export default function Home() {
             Reach out today to take the first step toward true relief.
           </p>
           <a href="#" className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border border-[#393E50] rounded-full px-8 py-4 w-fit hover:bg-[#6B78C2] hover:text-white transition-colors">
-            BOOK NOW
+            GET STARTED
           </a>
         </div>
 
         {/* Right Image */}
         <div className="w-[35%] relative h-[620px]">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7557312a-044d-4489-a9d1-6f43ee9888b1/Jennifer+A+-+Images+%2811%29.jpg?format=1000w"
-            alt="Person on beach"
+            src="https://images.unsplash.com/photo-1758523668629-84908c91a66c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGElMjBzb2xvJTIwcHJvZmVzc2lvbmFsJTIwYWR1bHQlMjBsb29raW5nJTIwcmVsYXhlZCVFMiU4MCU5NHBlcmhhcHMlMjBzaXR0aW5nJTIwYnklMjBhJTIwd2luZG93JTIwaG9sZGluZyUyMGElMjB3YXJtJTIwbXVnJTJDJTIwb3IlMjBhJTIwY2xvc2UtdXAlMjBvZiUyMGhhbmRzJTIwcmVzdGluZyUyMHBlYWNlZnVsbHklMjBpbiUyMHRoZWlyJTIwbGFwfGVufDB8fDB8fHwy"
+            alt="Relaxed professional"
             fill
             className="object-cover object-center"
             unoptimized
