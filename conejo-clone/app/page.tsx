@@ -1,20 +1,18 @@
 import Image from "next/image";
+import FAQSection from "../components/FAQSection";
 
 export default function Home() {
   return (
-    <div className="bg-[#F2F3EC] min-h-screen">
+    <div id="home" className="bg-[#F2F3EC] min-h-screen">
       {/* Nav Bar */}
-      <div className="px-18 pt-4 pb-4 flex items-center justify-between">
-        <div className="flex-shrink-0 cursor-pointer">
-          <Image
-            src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7116bf54-a0e1-4128-81d8-24fd9960c7ed/Conejo+Valley+Counseling+Logo.png?format=1500w"
-            alt="Conejo Valley Family Counseling"
-            width={500}
-            height={300}
-            className="w-[257px] h-[75px]"
-            loading="eager"
-            unoptimized
-          />
+      <div className="px-18 pt-4 pb-4 flex items-center justify-between bg-[#6B78C2]">
+        <div className="flex-shrink-0 cursor-pointer flex flex-col items-center justify-center h-[75px]">
+          <span className="text-[22px] tracking-[0.15em] font-serif text-white leading-tight">
+            DR. MAYA REYNOLDS
+          </span>
+          <span className="text-[14px] tracking-[0.3em] font-muli text-white leading-tight">
+            CLINICAL PSYCHOLOGIST
+          </span>
         </div>
 
         <div className="flex items-center gap-8">
@@ -23,32 +21,32 @@ export default function Home() {
               <nav>
                 <div className="flex justify-around items-center gap-8 text-[13.5px] uppercase tracking-wider">
                   <a
-                    href=""
-                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
+                    href="#about"
+                    className="text-white hover:opacity-80 transition-opacity"
                   >
                     ABOUT
                   </a>
                   <a
-                    href=""
-                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
+                    href="#focus"
+                    className="text-white hover:opacity-80 transition-opacity"
                   >
-                    OUR TEAM
+                    FOCUS
                   </a>
                   <a
-                    href=""
-                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
+                    href="#specialities"
+                    className="text-white hover:opacity-80 transition-opacity"
                   >
                     SPECIALITIES
                   </a>
                   <a
-                    href=""
-                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
+                    href="#benefits"
+                    className="text-white hover:opacity-80 transition-opacity"
                   >
-                    METHODS
+                    BENIFITS
                   </a>
                   <a
-                    href=""
-                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
+                    href="#faqs"
+                    className="text-white hover:opacity-80 transition-opacity"
                   >
                     FAQS
                   </a>
@@ -58,9 +56,9 @@ export default function Home() {
           </div>
 
           <div>
-            <button className="bg-[#F2F3EC] px-8 py-3 text-[13px] tracking-wider uppercase text-[#393E50] cursor-pointer rounded-[100px] border border-[#393E50] hover:bg-[#6B78C2] hover:text-white transition-colors">
+            <a href="#contact" className="inline-block bg-transparent px-8 py-3 text-[13px] tracking-wider uppercase text-white cursor-pointer rounded-[100px] border border-white hover:bg-white hover:text-[#6B78C2] transition-colors">
               CONTACT
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -80,26 +78,25 @@ export default function Home() {
         {/* Center Content */}
         <div className="col-span-7 flex flex-col h-[572px] justify-start pt-6 pl-24 pr-8">
           <h3 className="text-[14.5px] tracking-[0.15em] text-[#555] uppercase font-medium leading-relaxed">
-            Online & In-person counseling in
+            IN-PERSON THERAPY IN SANTA MONICA
             <br />
-            Newbury Park & Across CA
+            & TELEHEALTH ACROSS CALIFORNIA
           </h3>
 
           <div className="mt-32">
-            <h1 className="text-[3.5rem] leading-[1.15] text-[#6B78C2] mb-10 font-serif font-extralight">
-              Rebuild your foundation
+            <h1 className="text-[4rem] leading-[1.1] text-[#6B78C2] mb-10 font-serif font-extralight">
+              Move beyond simply{" "}
               <br />
-              on solid ground and finally
+              "functioning"and find
               <br />
-              begin to{" "}
               <span className="italic text-[#6E7E65] text-[3.5rem]">
-                Thrive.
+                true grounding.
               </span>
             </h1>
 
-            <p className="text-[17px] text-[#555] mb-16 font-light">
-              Specialized therapy for adults, couples, teens, and children to
-              reflect, heal, and grow.
+            <p className="text-[17px] text-[#555] mb-12 font-light">
+              Helping thoughtful adults heal from the past
+              and release the weight of chronic stress.
             </p>
 
             <div>
@@ -107,7 +104,7 @@ export default function Home() {
                 href="#"
                 className="text-[13px] tracking-[0.15em] font-medium text-[#393E50] uppercase border-b border-[#393E50] pb-2 hover:text-[#6B78C2] transition-colors"
               >
-                Book an Appointment
+                Get Started Today
               </a>
             </div>
           </div>
@@ -126,36 +123,27 @@ export default function Home() {
       </div>
 
       {/* Section 2 */}
-      <div className="py-[50px] grid grid-cols-12 items-stretch mb-25">
-        <div className="col-span-8 flex flex-col justify-center pl-30 pr-36 py-16">
+      <div id="about" className="py-[50px] grid grid-cols-12 items-stretch mb-25">
+        <div className="col-span-8 flex flex-col justify-center pl-30 pr-30 py-16">
           <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
-            You’re holding onto hope that life can be better than it is right
-            now.
+            Stop bracing for the worst and start <em className="text-[#6E7E65] font-muli">feeling safe</em> in your own life.
           </h2>
 
           <div className="grid grid-cols-2 gap-10 text-[#555] text-[16px] leading-[1.8] font-light">
             <div className="flex flex-col gap-6">
               <p className="tracking-[0.15em] uppercase text-[16px] font-light leading-[1.8] text-[#393E50] font-muli">
-                AT CONEJO VALLEY FAMILY COUNSELING WE WANT TO MAKE THAT HOPE A
-                REALITY.
+                EVIDENCE-BASED PSYCHOLOGY FOR ANXIETY, TRAUMA & BURNOUT
               </p>
               <p>
-                Whether you're an adult seeking personal growth, looking to work
-                through your trauma, a couple working on your relationship, or a
-                parent looking for support for your child, we provide a
-                compassionate and safe space to help you navigate all of life's
-                ups and downs.
+                Welcome, I&apos;m Dr. Maya Reynolds. I offer a calm, grounding space for professionals, creatives, and entrepreneurs
+                who feel disconnected from themselves after years of high internal pressure.
+                If you are dealing with perfectionism, panic, or chronic stress,
+                you do not have to carry it alone.
               </p>
             </div>
             <div className="flex flex-col">
               <p>
-                First and foremost, we believe what you're going through is
-                real, valid, and worthy of support. Our team offers clients in
-                the Newbury Park area and across CA an environment to discover a
-                new life and a deeper sense of self in the midst of their
-                struggles. As we tap into the power of connection and
-                understanding, you can find your footing again and take a
-                transformative path forward.
+                My approach is warm, collaborative, and structured to feel supportive while leaving space for depth. By integrating evidence-based methods like CBT, EMDR, and mindfulness, we address the emotional and physical toll of your experiences. Whether you are navigating burnout or long-standing trauma, my goal is to help you shift from feeling on edge to feeling deeply grounded.
               </p>
             </div>
           </div>
@@ -174,11 +162,11 @@ export default function Home() {
       </div>
 
       {/* Section 3 */}
-      <div className="pt-[50px] pb-[100px] bg-white px-18">
+      <div id="focus" className="pt-[50px] pb-[100px] bg-white px-18">
         <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
-          <span className="">Who we </span>
+          <span className="">Finding Your{" "} </span>
           <span className="italic text-[#6E7E65] text-[2.75rem] font-muli">
-            help
+            Center
           </span>
         </h2>
 
@@ -196,12 +184,13 @@ export default function Home() {
               />
             </div>
             <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
-              Adults
+              Anxiety <em className="text-[#6E7E65] font-muli">&</em> Overthinking
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
-              Feeling stuck or overwhelmed? We help adults find clarity, build
-              resilience, and move forward with confidence by addressing the
-              root causes of anxiety, stress, and emotional pain.
+              You may look highly functional on the outside, but internally you feel
+              exhausted and emotionally on edge. We will use evidence-based tools to
+              quiet constant worry, release physical tension in your body, and help
+              you stop bracing for the next thing to go wrong.
             </p>
           </div>
 
@@ -218,13 +207,13 @@ export default function Home() {
               />
             </div>
             <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
-              Couples
+              Lingering Trauma
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
-              Relationships require effort, and we're here to help you
-              strengthen yours. We guide couples through challenges like
-              communication breakdowns and trust issues, helping you rebuild
-              intimacy and strengthen your relationship.
+              Past experiences can leave lingering effects that impact your confidence,
+              relationships, and sense of safety. Using a carefully paced approach
+              integrating EMDR and somatic techniques, we will focus on stabilization
+              so you can feel deeply regulated in your daily life.
             </p>
           </div>
 
@@ -241,13 +230,13 @@ export default function Home() {
               />
             </div>
             <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
-              Children & Teens
+              Burnout <em className="text-[#6E7E65] font-muli">&</em> Perfectionism
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
-              Kids need support, too. We help them process big emotions, cope
-              with challenging family situations, build coping skills, and feel
-              understood, while also working closely with their parents to
-              create a nurturing environment.
+              After years of pushing through high internal pressure and chronic stress,
+              it is easy to feel disconnected from yourself. Therapy provides a grounded
+              space for professionals to slow down, process exhaustion, and develop more
+              sustainable ways of living and working.
             </p>
           </div>
         </div>
@@ -275,15 +264,15 @@ export default function Home() {
       </div>
 
       {/* Section 5 */}
-      <div className="py-[90px] bg-white w-full flex justify-center px-10">
+      <div id="specialities" className="py-[90px] bg-white w-full flex justify-center px-10">
         <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16">
           <div className="col-span-4 flex flex-col pt-4">
             <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
-              <span className="">Our areas of </span>
+              <span className="">What We Navigate </span>
               <br />
-              <span className="italic text-[#6E7E65] text-[3rem] font-muli">
-                expertise
-              </span>
+              <em className="text-[#6E7E65] text-[3rem] font-muli">
+                Together
+              </em>
             </h3>
           </div>
 
@@ -292,39 +281,33 @@ export default function Home() {
             <div className="flex flex-col">
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                DISSOCIATION
+                ANXIETY
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              >
+                PANIC
+              </a>
+              <a
+                href="#"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 TRAUMA
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                FAMILY CONFLICT
+                PROFESSIONAL BURNOUT
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                SPECIAL NEEDS PARENTING
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
-              >
-                DEPRESSION
-              </a>
-              <a
-                href="#"
-                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
-              >
-                MARRIAGE
+                PERFECTIONISM
               </a>
             </div>
 
@@ -332,37 +315,31 @@ export default function Home() {
             <div className="flex flex-col">
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                ANXIETY
+                CHRONIC STRESS
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 RELATIONSHIPS
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                CHILDREN
+                EMDR THERAPY
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
-                TEENS
+                SELF CONNECTION
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
-              >
-                INTIMACY & CONNECTION
-              </a>
-              <a
-                href="#"
-                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 ...AND MORE.
               </a>
@@ -375,46 +352,42 @@ export default function Home() {
       <div className="w-full bg-[#F2F3EC] py-[120px] flex">
         <div className="flex-1 pl-[10vw] pr-20 flex flex-col justify-center">
           <p className="text-[15px] tracking-[0.2em] text-[#393E50] font-muli uppercase mb-25">
-            How we work
+            TRAUMA THERAPY & SUPPORT
           </p>
           <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-15 whitespace-nowrap">
-            We’re here to <span className="text-[#6E7E65]">make a difference.</span>
+            Reclaim your sense of safety{" "}
+            <br />
+            at a pace that <span className="text-[#6E7E65]">feels right to you.</span>
           </h2>
 
           <div className="grid grid-cols-2 gap-8">
             <div className="flex flex-col">
-              <p className="text-[15px] leading-[1.8] text-[#000000] font-muli uppercase tracking-widest font-light mb-8">
-                THE CLIENTS WE WORK WITH ARE BALANCING SO MANY THINGS AT ONCE,
-                IT'S OFTEN HARD FOR THEM TO PUT THEMSELVES FIRST.
+              <p className="text-[15px] leading-[1.8] text-[#000000] font-muli uppercase tracking-widest font-light mb-5">
+                NAVIGATING THE IMPACT OF PAST EXPERIENCES WITH COMPASSIONATE CARE
+                IN SANTA MONICA AND ACROSS CALIFORNIA
               </p>
               <p className="text-[17px] leading-[1.8] text-[#000000] font-muli mb-16 font-light">
-                Here, your needs are always top priority. Our team takes the
-                time to deeply listen to our clients in order to truly
-                understand their story and their struggles. We recognize that no
-                two people are the same and that personalized therapy means an
-                intentional, tailored approach. (You won't find anything
-                "one-size-fits-all" here.) If you're ready to do the work, we're
-                ready to help.
+                Unresolved past experiences can quietly shape your relationships and
+                sense of security, leaving you with an exhausting need to always brace
+                for the worst. Processing these deep-rooted patterns requires profound
+                trust, which is why our work together is never rushed.
               </p>
               <a
                 href="#"
                 className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border-b border-[#393E50] pb-1 w-fit hover:text-[#6B78C2] transition-colors"
               >
-                LEARN MORE ABOUT US
+                EXPLORE TRAUMA SUPPORT
               </a>
             </div>
 
             <div className="flex flex-col">
               <p className="text-[17px] leading-[1.8] text-[#000000] font-muli font-light">
-                Sometimes we may gently challenge you to look at things
-                differently and other times we may explore your emotions, all
-                while encouraging you to practice what you've learned in your
-                daily life. We take what we do seriously because we know how
-                important it is for you to heal from what's hurting you,
-                discover a fulfilling life, and build meaningful relationships.
-                Our goal is to walk alongside you in this journey, offering
-                support and guidance as you uncover your strengths and embrace
-                what the future can hold for you.
+                Whether dealing with a single overwhelming event or complex,
+                long-standing patterns from childhood, our priority is always your
+                immediate safety. We focus first on stabilization, helping your
+                nervous system find its natural baseline. My goal is to help you feel
+                genuinely regulated and secure in your everyday life not just during
+                our sessions. Healing is possible, and you don’t have to navigate it alone.
               </p>
             </div>
           </div>
@@ -431,7 +404,7 @@ export default function Home() {
       </div>
 
       {/* Section 7 */}
-      <div className="w-full bg-white pt-[100px] pb-[100px] flex items-end">
+      <div className="w-full bg-[#6B78C2] flex items-center">
         {/* Left Image */}
         <div className="w-[53%] relative h-[500px]">
           <Image
@@ -444,24 +417,24 @@ export default function Home() {
         </div>
 
         {/* Right Text */}
-        <div className="flex-1 flex flex-col justify-end pl-18 pr-16">
-          <h2 className="text-[2.75rem] leading-[1.25] text-[#6B78C2] font-serif font-extralight">
-            Honoring where you’ve <br />
-            been <span className="italic text-[#6E7E65] text-[1.2em] font-muli align-middle">&amp;</span> helping shape <br />
-            where you’re headed.
+        <div className="flex-1 flex flex-col justify-center pl-18 pr-16">
+          <h2 className="text-[3.5rem] leading-[1.25] text-white font-serif font-extralight">
+            Slow down, reconnect &amp; build
+            lasting resilience.
           </h2>
         </div>
       </div>
 
       {/* Section 8 */}
-      <div className="w-full bg-white py-[120px] flex justify-center px-10">
+      <div id="benefits" className="w-full bg-white py-[120px] flex justify-center px-10">
         <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16">
           {/* Left Heading */}
           <div className="col-span-4 flex flex-col">
             <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
-              <span className="">Our </span>
-              <span className="italic text-[#6E7E65] text-[3.25rem] font-muli">specialties</span><br />
-              <span className="">include...</span>
+              <span className="">Beyond just{" "} </span>
+              <br />
+              <span className="italic text-[#6E7E65] text-[2.25rem] font-muli">symptom </span>
+              <span className="">relief</span>
             </h3>
           </div>
 
@@ -470,45 +443,45 @@ export default function Home() {
 
             {/* Item 1 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Trauma</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Deepened Insight</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
-                We don't always know when and how we've experienced trauma. In therapy, we'll work together to help you process your past, understand what's causing you to stay "stuck," and regain a sense of safety, control, and hope. You don't have to carry your burdens alone.
+                I look beneath the surface to understand both the emotional and physiological roots of your exhaustion. By making sense of how past experiences impact your present, you can step out of the cycle of overthinking and find true clarity.
               </p>
               <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
-                LEARN MORE
+                HOW WE EXPLORE THE PAST
               </a>
             </div>
 
             {/* Item 2 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">EMDR</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Lasting Resilience</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
-                Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
+                True healing means feeling more regulated in your daily life, not just during our sessions. Together, we will build practical, evidence-based tools that help you handle high-pressure environments and calm your mind when stress arises.
               </p>
               <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
-                LEARN MORE
+                TOOLS FOR DAILY LIFE
               </a>
             </div>
 
             {/* Item 3 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Dissociation</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Sustainable Living</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
-                The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we'll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.
+                You do not have to stay stuck in a loop of functioning on autopilot until you reach burnout. We will work collaboratively to develop new, healthier ways of living and working that allow you to thrive without constantly running on empty.
               </p>
               <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
-                LEARN MORE
+                OVERCOMING BURNOUT
               </a>
             </div>
 
             {/* Item 4 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Special Needs Parenting</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">A Stronger Sense of Self</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
-                Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
+                Years of perfectionism and pushing through chronic stress can leave you feeling completely disconnected from who you are. Therapy provides a dedicated space to slow down, rebuild your confidence, and foster a deeper, kinder relationship with yourself.
               </p>
               <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
-                LEARN MORE
+                RECONNECTING WITH YOU
               </a>
             </div>
 
@@ -517,7 +490,7 @@ export default function Home() {
       </div>
 
       {/* Section 9 */}
-      <div className="w-full bg-[#F2F3EC] py-[150px] flex justify-between items-end">
+      <div id="contact" className="w-full bg-[#F2F3EC] py-[150px] flex justify-between items-end">
         {/* Left Image */}
         <div className="w-[12%] relative h-[500px]">
           <Image
@@ -532,16 +505,16 @@ export default function Home() {
         {/* Center Text */}
         <div className="w-[48%] flex flex-col pr-10 pl-18">
           <p className="text-[15px] tracking-[0.2em] text-[#555] font-muli uppercase mb-24">
-            SCHEDULE AN APPOINTMENT
+            TAKE THE NEXT STEP
           </p>
           <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-10">
-            Find a therapist who is the<br /> right fit for <span className="italic text-[#6E7E65] text-[1.1em] font-muli">you</span>.
+            You don't have to carry<br /> this <em className="text-[#6E7E65] text-[1.1em] font-muli">weight {" "}</em> alone.
           </h2>
           <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8 pr-12">
-            Coming to therapy is a courageous decision, and connecting with the right kind of therapist makes all the difference. We understand that your journey is personal, and we're here to support you with care and understanding every step of the way. Each member of our team brings dedicated expertise and a commitment to support you in your struggles. We want you to feel prioritized, understood, and empowered.
+            Therapy is a dedicated space for you to finally slow down, step out of survival mode, and reconnect with yourself. My goal is to help you process the emotional and physiological exhaustion of high internal pressure so you can stop bracing for the worst. Whether we meet in my quiet Santa Monica office or through secure telehealth, we will pace the work carefully to ensure you feel respected, understood, and genuinely grounded.
           </p>
           <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8">
-            Click the button below to schedule an appointment.
+            Reach out today to take the first step toward true relief.
           </p>
           <a href="#" className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border border-[#393E50] rounded-full px-8 py-4 w-fit hover:bg-[#6B78C2] hover:text-white transition-colors">
             BOOK NOW
@@ -560,74 +533,66 @@ export default function Home() {
         </div>
       </div>
 
+      <div id="faqs">
+        <FAQSection />
+      </div>
+
       {/* Footer Main */}
-      <div className="w-full bg-white pt-[50px] pb-[100px] flex justify-center px-6">
+      <div className="w-full bg-[#6B78C2] pt-[50px] pb-[100px] flex justify-center px-6">
         <div className="w-full max-w-[1300px] grid grid-cols-12 gap-8">
           {/* Logo & Description */}
-          <div className="col-span-4 pr-12">
-            <Image
-              src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/7116bf54-a0e1-4128-81d8-24fd9960c7ed/Conejo+Valley+Counseling+Logo.png?format=1500w"
-              alt="Conejo Valley Family Counseling"
-              width={500}
-              height={300}
-              className="w-[600px] h-auto -ml-4"
-              unoptimized
-            />
-            <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mt-4">
-              We want to make getting started simple. You're welcome to come into our office in Newbury Park or schedule virtual appointments from anywhere in CA—whatever works best for you.
+          <div className="col-span-5 pr-20">
+            <div className="flex-shrink-0 cursor-pointer flex flex-col items-center justify-center mb-8 pt-2 w-fit">
+              <span className="text-[28px] tracking-[0.15em] font-serif text-white leading-tight">
+                DR. MAYA REYNOLDS
+              </span>
+              <span className="text-[18px] tracking-[0.3em] font-muli text-white leading-tight mt-1">
+                CLINICAL PSYCHOLOGIST
+              </span>
+            </div>
+            <p className="text-[19px] leading-[1.8] text-white font-muli font-light">
+              I want to make getting started simple and comfortable. You are welcome to meet in person at my quiet, grounding office in Santa Monica, or schedule secure virtual sessions from anywhere in California, whichever feels right for you.
             </p>
           </div>
 
           {/* Navigate */}
-          <div className="col-span-2 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">NAVIGATE</h4>
-            <div className="flex flex-col gap-2">
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Home</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">About</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">FAQs</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Contact</a>
-            </div>
-          </div>
-
-          {/* Our Team */}
           <div className="col-span-3 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">OUR TEAM</h4>
-            <div className="flex flex-col gap-2">
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Jennifer Anderson</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Heather Williams-Baumgart</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Autumn Bodily</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Candace Bletscher</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Samantha Johnson</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Andrea Watkins</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Rosa Gomez</a>
-              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Chad Flores</a>
+            <h4 className="text-[19px] tracking-[0.15em] text-white font-muli uppercase mb-8">NAVIGATE</h4>
+            <div className="flex flex-col gap-3">
+              <a href="#home" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">Home</a>
+              <a href="#about" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">About</a>
+              <a href="#focus" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">Focus</a>
+              <a href="#specialities" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">Specialities</a>
+              <a href="#benefits" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">Benefits</a>
+              <a href="#faqs" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">FAQs</a>
+              <a href="#contact" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">Contact</a>
             </div>
           </div>
 
           {/* Contact */}
-          <div className="col-span-3 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">CONTACT</h4>
-            <div className="flex flex-col gap-1">
-              <p className="text-[15px] text-[#393E50] font-muli font-light">925 Broadbeck Dr</p>
-              <p className="text-[15px] text-[#393E50] font-muli font-light">Suites 200 and 225</p>
-              <p className="text-[15px] text-[#393E50] font-muli font-light">Newbury Park, CA 91320</p>
+          <div className="col-span-4 flex flex-col pt-4">
+            <h4 className="text-[19px] tracking-[0.15em] text-white font-muli uppercase mb-8">CONTACT</h4>
+            <div className="flex flex-col gap-1 mb-6">
+              <p className="text-[17px] text-white font-muli font-light">123th Street 45 W,</p>
+              <p className="text-[17px] text-white font-muli font-light"> Santa Monica,</p>
+              <p className="text-[17px] text-white font-muli font-light">CA 90401</p>
             </div>
-            <div className="flex flex-col gap-1 mb-8">
-              <a href="mailto:info@conejovalleycounseling.com" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">info@conejovalleycounseling.com</a>
-              <a href="tel:805.242.3120" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">805.242.3120</a>
+            <div className="flex flex-col gap-1 mb-10">
+              <a href="mailto:info@conejovalleycounseling.com" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">hello@drmayareynolds.com</a>
+              <a href="tel:805.242.3120" className="text-[17px] text-white font-muli font-light hover:opacity-80 transition-opacity">(310) 555-0198</a>
             </div>
-            <em className="text-[15px] leading-[1.8] text-[#393E50] font-muli font-light">
-              Serving Thousand Oaks, Westlake Village, Camarillo, Moorpark, &amp; Simi Valley
+            <em className="text-[17px] leading-[1.8] text-white font-muli font-light">
+              Serving Santa Monica, the Greater Los Angeles area, and all of California via secure telehealth.
             </em>
           </div>
         </div>
       </div>
 
       {/* Footer Bottom Bar */}
-      <div className="w-full bg-[#6B78C2] py-3 flex justify-center px-10">
-        <div className="w-full max-w-[1200px]">
-          <p className="text-[15px] text-white font-muli font-light">
-            <a href="#" className="hover:opacity-80 transition-opacity">Terms</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Disclaimer</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Website by Walker Strategy Co.</a>
+      <div className="w-full bg-[#F2F3EC] py-3 flex justify-center px-10">
+        <div className="w-full">
+          <p className="text-center text-[17px] text-[#393E50] font-muli font-light">
+            <span className="hover:text-[#6B78C2] transition-colors cursor-pointer">Terms</span> &nbsp;|&nbsp; <span className="hover:text-[#6B78C2] transition-colors">Privacy Policy</span> &nbsp;|&nbsp; <span className="hover:text-[#6B78C2] transition-colors">Disclaimer</span> &nbsp;|&nbsp; <span className="hover:text-[#6B78C2] transition-colors">Website made by Krish Mishra</span>
           </p>
         </div>
       </div>
