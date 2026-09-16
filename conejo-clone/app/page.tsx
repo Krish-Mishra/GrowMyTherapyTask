@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#f6f4ee] min-h-screen">
+    <div className="bg-[#F2F3EC] min-h-screen">
       {/* Nav Bar */}
       <div className="px-18 pt-4 pb-4 flex items-center justify-between">
         <div className="flex-shrink-0 cursor-pointer">
@@ -24,31 +24,31 @@ export default function Home() {
                 <div className="flex justify-around items-center gap-8 text-[13.5px] uppercase tracking-wider">
                   <a
                     href=""
-                    className="text-[#2b2b2b] hover:opacity-70 transition-opacity"
+                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
                   >
                     ABOUT
                   </a>
                   <a
                     href=""
-                    className="text-[#2b2b2b] hover:opacity-70 transition-opacity"
+                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
                   >
                     OUR TEAM
                   </a>
                   <a
                     href=""
-                    className="text-[#2b2b2b] hover:opacity-70 transition-opacity"
+                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
                   >
                     SPECIALITIES
                   </a>
                   <a
                     href=""
-                    className="text-[#2b2b2b] hover:opacity-70 transition-opacity"
+                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
                   >
                     METHODS
                   </a>
                   <a
                     href=""
-                    className="text-[#2b2b2b] hover:opacity-70 transition-opacity"
+                    className="text-[#393E50] hover:text-[#6B78C2] transition-colors"
                   >
                     FAQS
                   </a>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           <div>
-            <button className="bg-[#f6f4ee] px-8 py-3 text-[13px] tracking-wider uppercase text-[#2b2b2b] cursor-pointer rounded-[100px] border border-[#2b2b2b] hover:bg-[#2b2b2b] hover:text-[#f6f4ee] transition-colors">
+            <button className="bg-[#F2F3EC] px-8 py-3 text-[13px] tracking-wider uppercase text-[#393E50] cursor-pointer rounded-[100px] border border-[#393E50] hover:bg-[#6B78C2] hover:text-white transition-colors">
               CONTACT
             </button>
           </div>
@@ -86,16 +86,15 @@ export default function Home() {
           </h3>
 
           <div className="mt-32">
-            <h1 className="text-[3.5rem] leading-[1.15] text-[#2b2b2b] mb-10 font-serif font-extralight">
+            <h1 className="text-[3.5rem] leading-[1.15] text-[#6B78C2] mb-10 font-serif font-extralight">
               Rebuild your foundation
               <br />
               on solid ground and finally
               <br />
               begin to{" "}
-              <span className="italic text-[#7ca8a6] text-[3.5rem]">
-                Thrive
+              <span className="italic text-[#6E7E65] text-[3.5rem]">
+                Thrive.
               </span>
-              .
             </h1>
 
             <p className="text-[17px] text-[#555] mb-16 font-light">
@@ -106,7 +105,7 @@ export default function Home() {
             <div>
               <a
                 href="#"
-                className="text-[13px] tracking-[0.15em] font-medium text-[#2b2b2b] uppercase border-b border-[#2b2b2b] pb-2 hover:opacity-70 transition-opacity"
+                className="text-[13px] tracking-[0.15em] font-medium text-[#393E50] uppercase border-b border-[#393E50] pb-2 hover:text-[#6B78C2] transition-colors"
               >
                 Book an Appointment
               </a>
@@ -129,14 +128,14 @@ export default function Home() {
       {/* Section 2 */}
       <div className="py-[50px] grid grid-cols-12 items-stretch mb-25">
         <div className="col-span-8 flex flex-col justify-center pl-30 pr-36 py-16">
-          <h2 className="text-[2.75rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight mb-12">
+          <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
             You’re holding onto hope that life can be better than it is right
             now.
           </h2>
 
           <div className="grid grid-cols-2 gap-10 text-[#555] text-[16px] leading-[1.8] font-light">
             <div className="flex flex-col gap-6">
-              <p className="tracking-[0.15em] uppercase text-[16px] font-light leading-[1.8] text-[#2b2b2b] font-muli">
+              <p className="tracking-[0.15em] uppercase text-[16px] font-light leading-[1.8] text-[#393E50] font-muli">
                 AT CONEJO VALLEY FAMILY COUNSELING WE WANT TO MAKE THAT HOPE A
                 REALITY.
               </p>
@@ -176,9 +175,9 @@ export default function Home() {
 
       {/* Section 3 */}
       <div className="pt-[50px] pb-[100px] bg-white px-18">
-        <h2 className="text-[2.75rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight mb-12">
+        <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
           <span className="">Who we </span>
-          <span className="italic text-[#7ca8a6] text-[2.75rem] font-muli">
+          <span className="italic text-[#6E7E65] text-[2.75rem] font-muli">
             help
           </span>
         </h2>
@@ -196,7 +195,7 @@ export default function Home() {
                 unoptimized
               />
             </div>
-            <h3 className="text-[1.75rem] font-serif text-[#2b2b2b] font-light mb-6">
+            <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
               Adults
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
@@ -218,7 +217,7 @@ export default function Home() {
                 unoptimized
               />
             </div>
-            <h3 className="text-[1.75rem] font-serif text-[#2b2b2b] font-light mb-6">
+            <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
               Couples
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
@@ -241,7 +240,7 @@ export default function Home() {
                 unoptimized
               />
             </div>
-            <h3 className="text-[1.75rem] font-serif text-[#2b2b2b] font-light mb-6">
+            <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
               Children & Teens
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
@@ -267,7 +266,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 w-full pl-24 pr-12 pb-20 max-w-[900px]">
-          <h2 className="text-[2.75rem] leading-[1.15] text-[#f6f4ee] font-serif font-extralight drop-shadow-md">
+          <h2 className="text-[2.75rem] leading-[1.15] text-[#F2F3EC] font-serif font-extralight drop-shadow-md">
             You deserve a place where your story is heard, valued, and
             understood.{" "}
             <em>Nothing will be too heavy for us to carry together.</em>
@@ -279,10 +278,10 @@ export default function Home() {
       <div className="py-[90px] bg-white w-full flex justify-center px-10">
         <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16">
           <div className="col-span-4 flex flex-col pt-4">
-            <h3 className="text-[2.25rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight">
+            <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
               <span className="">Our areas of </span>
               <br />
-              <span className="italic text-[#7ca8a6] text-[3rem] font-muli">
+              <span className="italic text-[#6E7E65] text-[3rem] font-muli">
                 expertise
               </span>
             </h3>
@@ -293,37 +292,37 @@ export default function Home() {
             <div className="flex flex-col">
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 DISSOCIATION
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 TRAUMA
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 FAMILY CONFLICT
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 SPECIAL NEEDS PARENTING
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 DEPRESSION
               </a>
               <a
                 href="#"
-                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 MARRIAGE
               </a>
@@ -333,37 +332,37 @@ export default function Home() {
             <div className="flex flex-col">
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 ANXIETY
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 RELATIONSHIPS
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 CHILDREN
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 TEENS
               </a>
               <a
                 href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 border-b border-[#f0f0f0] text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 INTIMACY & CONNECTION
               </a>
               <a
                 href="#"
-                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#2b2b2b] transition-colors font-muli"
+                className="py-8 text-[14px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
               >
                 ...AND MORE.
               </a>
@@ -373,13 +372,13 @@ export default function Home() {
       </div>
 
       {/* Section 6 */}
-      <div className="w-full bg-[#E0DACB] py-[120px] flex">
+      <div className="w-full bg-[#F2F3EC] py-[120px] flex">
         <div className="flex-1 pl-[10vw] pr-20 flex flex-col justify-center">
-          <p className="text-[15px] tracking-[0.2em] text-[#2b2b2b] font-muli uppercase mb-25">
+          <p className="text-[15px] tracking-[0.2em] text-[#393E50] font-muli uppercase mb-25">
             How we work
           </p>
-          <h2 className="text-[2.5rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight mb-15 whitespace-nowrap">
-            We’re here to make a difference.
+          <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-15 whitespace-nowrap">
+            We’re here to <span className="text-[#6E7E65]">make a difference.</span>
           </h2>
 
           <div className="grid grid-cols-2 gap-8">
@@ -399,7 +398,7 @@ export default function Home() {
               </p>
               <a
                 href="#"
-                className="text-[13px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase border-b border-[#2b2b2b] pb-1 w-fit hover:opacity-70 transition-opacity"
+                className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border-b border-[#393E50] pb-1 w-fit hover:text-[#6B78C2] transition-colors"
               >
                 LEARN MORE ABOUT US
               </a>
@@ -446,9 +445,9 @@ export default function Home() {
 
         {/* Right Text */}
         <div className="flex-1 flex flex-col justify-end pl-18 pr-16">
-          <h2 className="text-[2.75rem] leading-[1.25] text-[#2b2b2b] font-serif font-extralight">
+          <h2 className="text-[2.75rem] leading-[1.25] text-[#6B78C2] font-serif font-extralight">
             Honoring where you’ve <br />
-            been <span className="italic text-[#7ca8a6] text-[1.2em] font-muli align-middle">&amp;</span> helping shape <br />
+            been <span className="italic text-[#6E7E65] text-[1.2em] font-muli align-middle">&amp;</span> helping shape <br />
             where you’re headed.
           </h2>
         </div>
@@ -459,9 +458,9 @@ export default function Home() {
         <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16">
           {/* Left Heading */}
           <div className="col-span-4 flex flex-col">
-            <h3 className="text-[2.25rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight">
+            <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
               <span className="">Our </span>
-              <span className="italic text-[#7ca8a6] text-[3.25rem] font-muli">specialties</span><br />
+              <span className="italic text-[#6E7E65] text-[3.25rem] font-muli">specialties</span><br />
               <span className="">include...</span>
             </h3>
           </div>
@@ -471,44 +470,44 @@ export default function Home() {
 
             {/* Item 1 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Trauma</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Trauma</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 We don't always know when and how we've experienced trauma. In therapy, we'll work together to help you process your past, understand what's causing you to stay "stuck," and regain a sense of safety, control, and hope. You don't have to carry your burdens alone.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
                 LEARN MORE
               </a>
             </div>
 
             {/* Item 2 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">EMDR</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">EMDR</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
                 LEARN MORE
               </a>
             </div>
 
             {/* Item 3 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Dissociation</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Dissociation</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we'll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
                 LEARN MORE
               </a>
             </div>
 
             {/* Item 4 */}
             <div className="flex flex-col">
-              <h4 className="text-[1.75rem] text-[#555] font-serif font-extralight mb-6">Special Needs Parenting</h4>
+              <h4 className="text-[1.75rem] text-[#6B78C2] font-serif font-extralight mb-6">Special Needs Parenting</h4>
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:opacity-70 transition-opacity">
+              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
                 LEARN MORE
               </a>
             </div>
@@ -518,7 +517,7 @@ export default function Home() {
       </div>
 
       {/* Section 9 */}
-      <div className="w-full bg-[#f6f4ee] py-[150px] flex justify-between items-end">
+      <div className="w-full bg-[#F2F3EC] py-[150px] flex justify-between items-end">
         {/* Left Image */}
         <div className="w-[12%] relative h-[500px]">
           <Image
@@ -535,16 +534,16 @@ export default function Home() {
           <p className="text-[15px] tracking-[0.2em] text-[#555] font-muli uppercase mb-24">
             SCHEDULE AN APPOINTMENT
           </p>
-          <h2 className="text-[2.5rem] leading-[1.2] text-[#2b2b2b] font-serif font-extralight mb-10">
-            Find a therapist who is the<br /> right fit for <span className="italic text-[#7ca8a6] text-[1.1em] font-muli">you</span>.
+          <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-10">
+            Find a therapist who is the<br /> right fit for <span className="italic text-[#6E7E65] text-[1.1em] font-muli">you</span>.
           </h2>
-          <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mb-8 pr-12">
+          <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8 pr-12">
             Coming to therapy is a courageous decision, and connecting with the right kind of therapist makes all the difference. We understand that your journey is personal, and we're here to support you with care and understanding every step of the way. Each member of our team brings dedicated expertise and a commitment to support you in your struggles. We want you to feel prioritized, understood, and empowered.
           </p>
-          <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mb-8">
+          <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8">
             Click the button below to schedule an appointment.
           </p>
-          <a href="#" className="text-[13px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase border border-[#2b2b2b] rounded-full px-8 py-4 w-fit hover:bg-[#2b2b2b] hover:text-[#f6f4ee] transition-colors">
+          <a href="#" className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border border-[#393E50] rounded-full px-8 py-4 w-fit hover:bg-[#6B78C2] hover:text-white transition-colors">
             BOOK NOW
           </a>
         </div>
@@ -574,50 +573,50 @@ export default function Home() {
               className="w-[600px] h-auto -ml-4"
               unoptimized
             />
-            <p className="text-[17px] leading-[1.8] text-[#2b2b2b] font-muli font-light mt-4">
+            <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mt-4">
               We want to make getting started simple. You're welcome to come into our office in Newbury Park or schedule virtual appointments from anywhere in CA—whatever works best for you.
             </p>
           </div>
 
           {/* Navigate */}
           <div className="col-span-2 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#555] font-muli uppercase mb-6">NAVIGATE</h4>
+            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">NAVIGATE</h4>
             <div className="flex flex-col gap-2">
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Home</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">About</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">FAQs</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Contact</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Home</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">About</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">FAQs</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Contact</a>
             </div>
           </div>
 
           {/* Our Team */}
           <div className="col-span-3 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase mb-6">OUR TEAM</h4>
+            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">OUR TEAM</h4>
             <div className="flex flex-col gap-2">
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Jennifer Anderson</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Heather Williams-Baumgart</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Autumn Bodily</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Candace Bletscher</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Samantha Johnson</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Andrea Watkins</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Rosa Gomez</a>
-              <a href="#" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">Chad Flores</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Jennifer Anderson</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Heather Williams-Baumgart</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Autumn Bodily</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Candace Bletscher</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Samantha Johnson</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Andrea Watkins</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Rosa Gomez</a>
+              <a href="#" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">Chad Flores</a>
             </div>
           </div>
 
           {/* Contact */}
           <div className="col-span-3 flex flex-col pt-4">
-            <h4 className="text-[17px] tracking-[0.15em] text-[#2b2b2b] font-muli uppercase mb-6">CONTACT</h4>
+            <h4 className="text-[17px] tracking-[0.15em] text-[#6B78C2] font-muli uppercase mb-6">CONTACT</h4>
             <div className="flex flex-col gap-1">
-              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">925 Broadbeck Dr</p>
-              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">Suites 200 and 225</p>
-              <p className="text-[15px] text-[#2b2b2b] font-muli font-light">Newbury Park, CA 91320</p>
+              <p className="text-[15px] text-[#393E50] font-muli font-light">925 Broadbeck Dr</p>
+              <p className="text-[15px] text-[#393E50] font-muli font-light">Suites 200 and 225</p>
+              <p className="text-[15px] text-[#393E50] font-muli font-light">Newbury Park, CA 91320</p>
             </div>
             <div className="flex flex-col gap-1 mb-8">
-              <a href="mailto:info@conejovalleycounseling.com" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">info@conejovalleycounseling.com</a>
-              <a href="tel:805.242.3120" className="text-[15px] text-[#2b2b2b] font-muli font-light hover:opacity-70 transition-opacity">805.242.3120</a>
+              <a href="mailto:info@conejovalleycounseling.com" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">info@conejovalleycounseling.com</a>
+              <a href="tel:805.242.3120" className="text-[15px] text-[#393E50] font-muli font-light hover:text-[#6B78C2] transition-colors">805.242.3120</a>
             </div>
-            <em className="text-[15px] leading-[1.8] text-[#2b2b2b] font-muli font-light">
+            <em className="text-[15px] leading-[1.8] text-[#393E50] font-muli font-light">
               Serving Thousand Oaks, Westlake Village, Camarillo, Moorpark, &amp; Simi Valley
             </em>
           </div>
@@ -625,7 +624,7 @@ export default function Home() {
       </div>
 
       {/* Footer Bottom Bar */}
-      <div className="w-full bg-[#90BEC3] py-3 flex justify-center px-10">
+      <div className="w-full bg-[#6B78C2] py-3 flex justify-center px-10">
         <div className="w-full max-w-[1200px]">
           <p className="text-[15px] text-white font-muli font-light">
             <a href="#" className="hover:opacity-80 transition-opacity">Terms</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Disclaimer</a> &nbsp;|&nbsp; <a href="#" className="hover:opacity-80 transition-opacity">Website by Walker Strategy Co.</a>
