@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-eb-garamond), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-allura: var(--font-allura), cursive;
+}

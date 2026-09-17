@@ -89,7 +89,7 @@ export default function Home() {
               <br />
               "functioning"and find
               <br />
-              <span className="italic text-[#6E7E65] text-[3.5rem]">
+              <span className="font-allura text-[#6E7E65] text-[3.75rem]">
                 true grounding.
               </span>
             </h1>
@@ -126,7 +126,7 @@ export default function Home() {
       <div id="about" className="py-[50px] grid grid-cols-12 items-stretch mb-25">
         <div className="col-span-8 flex flex-col justify-center pl-30 pr-30 py-16">
           <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
-            Stop bracing for the worst and start <em className="text-[#6E7E65] font-muli">feeling safe</em> in your own life.
+            Stop bracing for the worst and start <em className="text-[#6E7E65] font-allura text-[1.2em]">feeling safe</em> in your own life.
           </h2>
 
           <div className="grid grid-cols-2 gap-10 text-[#555] text-[16px] leading-[1.8] font-light">
@@ -175,7 +175,7 @@ export default function Home() {
       <div id="focus" className="pt-[50px] pb-[100px] bg-white px-18">
         <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
           <span className="">Finding Your{" "} </span>
-          <span className="italic text-[#6E7E65] text-[2.75rem] font-muli">
+          <span className="font-allura text-[#6E7E65] text-[3.5rem]">
             Center
           </span>
         </h2>
@@ -194,7 +194,7 @@ export default function Home() {
               />
             </div>
             <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
-              Anxiety <em className="text-[#6E7E65] font-muli">&</em> Overthinking
+              Anxiety <em className="text-[#6E7E65] font-allura text-[1.4em]">&</em> Overthinking
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
               You may look highly functional on the outside, but internally you feel
@@ -240,7 +240,7 @@ export default function Home() {
               />
             </div>
             <h3 className="text-[1.75rem] font-serif text-[#6B78C2] font-light mb-6">
-              Burnout <em className="text-[#6E7E65] font-muli">&</em> Perfectionism
+              Burnout <em className="text-[#6E7E65] font-allura text-[1.4em]">&</em> Perfectionism
             </h3>
             <p className="text-[#555] text-[16px] font-light leading-[1.8] font-muli">
               After years of pushing through high internal pressure and chronic stress,
@@ -255,8 +255,8 @@ export default function Home() {
       {/* Section 4 */}
       <div className="relative w-full h-[550px] flex items-end">
         <Image
-          src="https://images.squarespace-cdn.com/content/v1/670423e106da6c036366fd10/27b4f80c-ca73-4d1f-824e-ec29a2211142/Jennifer+A+-+Images+%282%29.png"
-          alt="Kids running on beach"
+          src="https://images.unsplash.com/photo-1598826815648-f13bdd595ffe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fEElMjB3aWRlJTIwc2hvdCUyMG9mJTIwdGhlJTIwb2NlYW4lMjBhdCUyMHR3aWxpZ2h0JTJDJTIwZGVlcCUyMGJsdWUlMjB3YXRlciUyMHJvbGxpbmclMjBpbiUyQyUyMG9yJTIwYSUyMG1pc3R5JTIwbW9ybmluZyUyMG9uJTIwdGhlJTIwQ2FsaWZvcm5pYSUyMGNvYXN0LnxlbnwwfHwwfHx8Mg%3D%3D"
+          alt="Wide shot of the ocean"
           fill
           className="object-cover"
           unoptimized
@@ -264,11 +264,10 @@ export default function Home() {
 
         <div className="absolute inset-0 bg-black/40"></div>
 
-        <div className="relative z-10 w-full pl-24 pr-12 pb-20 max-w-[900px]">
-          <h2 className="text-[2.75rem] leading-[1.15] text-[#F2F3EC] font-serif font-extralight drop-shadow-md">
-            You deserve a place where your story is heard, valued, and
-            understood.{" "}
-            <em>Nothing will be too heavy for us to carry together.</em>
+        <div className="relative z-10 w-full pl-32 pr-12 pb-20 max-w-[950px]">
+          <h2 className="text-[2.75rem] leading-[1.5] text-[#F2F3EC] font-serif font-extralight drop-shadow-md">
+            You don&apos;t have to have it all together before you walk through the door.{" "}
+            <em>This is a space to simply be as you are.</em>
           </h2>
         </div>
       </div>
@@ -280,7 +279,7 @@ export default function Home() {
             <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
               <span className="">What We Navigate </span>
               <br />
-              <em className="text-[#6E7E65] text-[3rem] font-muli">
+              <em className="text-[#6E7E65] text-[3.5rem] font-allura">
                 Together
               </em>
             </h3>
@@ -367,7 +366,7 @@ export default function Home() {
           <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-15 whitespace-nowrap">
             Reclaim your sense of safety{" "}
             <br />
-            at a pace that <span className="text-[#6E7E65]">feels right to you.</span>
+            at a pace that <span className="text-[#6E7E65] font-allura text-[1.2em]">feels right to you.</span>
           </h2>
 
           <div className="grid grid-cols-2 gap-8">
@@ -443,7 +442,7 @@ export default function Home() {
             <h3 className="text-[2.25rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight">
               <span className="">Beyond just{" "} </span>
               <br />
-              <span className="italic text-[#6E7E65] text-[2.25rem] font-muli">symptom </span>
+              <span className="font-allura text-[#6E7E65] text-[2.75rem]">symptom </span>
               <span className="">relief</span>
             </h3>
           </div>
@@ -499,8 +498,43 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Office Section */}
+      <div id="office" className="w-full bg-[#F2F3EC] py-[100px] flex justify-center px-10">
+        <div className="w-full max-w-[1200px] flex flex-col items-center">
+          <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-6 text-center">
+            The Space of <span className="font-allura text-[#6E7E65] text-[3.5rem]">Serenity</span>
+          </h2>
+          <p className="text-[#555] text-[16px] leading-[1.8] font-light font-muli text-center max-w-[800px] mb-4">
+            Therapy is most effective when your nervous system feels safe. My Santa Monica office is a quiet, private space designed to feel calm and grounding, with natural light and a comfortable, uncluttered environment. Clients often share that the space itself helps them feel more at ease the moment they arrive.
+          </p>
+          <p className="text-[#6B78C2] text-[15px] italic font-muli text-center mb-16">
+            In-Person Sessions in Santa Monica | Secure Telehealth Across California
+          </p>
+          <div className="grid grid-cols-2 gap-10 w-full">
+            <div className="relative w-full h-[500px]">
+              <Image
+                src="/office-1.jpg"
+                alt="Therapy Office Interior"
+                fill
+                className="object-cover rounded-sm"
+                unoptimized
+              />
+            </div>
+            <div className="relative w-full h-[500px]">
+              <Image
+                src="/office-2.jpg"
+                alt="Therapy Office Detail"
+                fill
+                className="object-cover rounded-sm"
+                unoptimized
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Section 9 */}
-      <div id="contact" className="w-full bg-[#F2F3EC] py-[150px] flex justify-between items-end">
+      <div id="contact" className="w-full bg-white py-[100px] flex justify-between items-end">
         {/* Left Image */}
         <div className="w-[12%] relative h-[500px]">
           <Image
@@ -518,7 +552,7 @@ export default function Home() {
             TAKE THE NEXT STEP
           </p>
           <h2 className="text-[2.5rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-10">
-            You don't have to carry<br /> this <em className="text-[#6E7E65] text-[1.1em] font-muli">weight {" "}</em> alone.
+            You don't have to carry<br /> this <em className="text-[#6E7E65] text-[1.4em] font-allura">weight {" "}</em> alone.
           </h2>
           <p className="text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8 pr-12">
             Therapy is a dedicated space for you to finally slow down, step out of survival mode, and reconnect with yourself. My goal is to help you process the emotional and physiological exhaustion of high internal pressure so you can stop bracing for the worst. Whether we meet in my quiet Santa Monica office or through secure telehealth, we will pace the work carefully to ensure you feel respected, understood, and genuinely grounded.
