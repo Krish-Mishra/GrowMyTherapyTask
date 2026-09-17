@@ -44,12 +44,13 @@ export default function Home() {
             </p>
 
             <div>
-              <a
-                href="#"
-                className="text-[13px] tracking-[0.15em] font-medium text-[#393E50] uppercase border-b border-[#393E50] pb-2 hover:text-[#6B78C2] transition-colors"
+              <button
+                type="button"
+                className="group relative text-[13px] tracking-[0.15em] font-medium text-[#393E50] uppercase pb-2 hover:text-[#6B78C2] transition-colors duration-500"
               >
                 Get Started Today
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#393E50] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -232,70 +233,70 @@ export default function Home() {
           <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-24 text-center md:text-left">
             {/* Column 1 */}
             <div className="flex flex-col">
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 ANXIETY
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 PANIC
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 TRAUMA
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 PROFESSIONAL BURNOUT
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 PERFECTIONISM
-              </a>
+              </button>
             </div>
 
             {/* Column 2 */}
             <div className="flex flex-col">
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 CHRONIC STRESS
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 RELATIONSHIPS
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 EMDR THERAPY
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 SELF CONNECTION
-              </a>
-              <a
-                href="#"
-                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli"
+              </button>
+              <button
+                type="button"
+                className="py-8 border-b border-[#f0f0f0] text-[16px] tracking-[0.15em] text-[#555] hover:text-[#6B78C2] transition-colors font-muli text-left"
               >
                 ...AND MORE.
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -325,12 +326,13 @@ export default function Home() {
                 for the worst. Processing these deep-rooted patterns requires profound
                 trust, which is why our work together is never rushed.
               </p>
-              <a
-                href="#"
-                className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border-b border-[#393E50] pb-1 w-fit hover:text-[#6B78C2] transition-colors"
+              <button
+                type="button"
+                className="group relative text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase pb-1 w-fit hover:text-[#6B78C2] transition-colors duration-500"
               >
                 EXPLORE TRAUMA SUPPORT
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#393E50] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
 
             <div className="flex flex-col">
@@ -400,9 +402,10 @@ export default function Home() {
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 I look beneath the surface to understand both the emotional and physiological roots of your exhaustion. By making sense of how past experiences impact your present, you can step out of the cycle of overthinking and find true clarity.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
+              <button type="button" className="group relative text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase pb-1 w-fit hover:text-[#6B78C2] transition-colors duration-500">
                 HOW WE EXPLORE THE PAST
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#555] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
 
             {/* Item 2 */}
@@ -411,9 +414,10 @@ export default function Home() {
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 True healing means feeling more regulated in your daily life, not just during our sessions. Together, we will build practical, evidence-based tools that help you handle high-pressure environments and calm your mind when stress arises.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
+              <button type="button" className="group relative text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase pb-1 w-fit hover:text-[#6B78C2] transition-colors duration-500">
                 TOOLS FOR DAILY LIFE
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#555] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
 
             {/* Item 3 */}
@@ -422,9 +426,10 @@ export default function Home() {
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 You do not have to stay stuck in a loop of functioning on autopilot until you reach burnout. We will work collaboratively to develop new, healthier ways of living and working that allow you to thrive without constantly running on empty.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
+              <button type="button" className="group relative text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase pb-1 w-fit hover:text-[#6B78C2] transition-colors duration-500">
                 OVERCOMING BURNOUT
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#555] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
 
             {/* Item 4 */}
@@ -433,9 +438,10 @@ export default function Home() {
               <p className="text-[17px] leading-[1.8] text-[#555] font-muli font-light mb-8">
                 Years of perfectionism and pushing through chronic stress can leave you feeling completely disconnected from who you are. Therapy provides a dedicated space to slow down, rebuild your confidence, and foster a deeper, kinder relationship with yourself.
               </p>
-              <a href="#" className="text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase border-b border-[#555] pb-1 w-fit hover:text-[#6B78C2] transition-colors">
+              <button type="button" className="group relative text-[13px] tracking-[0.15em] text-[#555] font-muli uppercase pb-1 w-fit hover:text-[#6B78C2] transition-colors duration-500">
                 RECONNECTING WITH YOU
-              </a>
+                <span className="absolute left-0 bottom-0 w-full h-[1px] bg-[#555] transition-all duration-500 group-hover:w-0"></span>
+              </button>
             </div>
 
           </div>
@@ -504,9 +510,9 @@ export default function Home() {
           <p className="text-[16px] md:text-[17px] leading-[1.8] text-[#393E50] font-muli font-light mb-8">
             Reach out today to take the first step toward true relief.
           </p>
-          <a href="#" className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border border-[#393E50] rounded-full px-8 py-4 w-fit hover:bg-[#6B78C2] hover:text-white transition-colors">
+          <button type="button" className="text-[13px] tracking-[0.15em] text-[#393E50] font-muli uppercase border border-[#393E50] rounded-full px-8 py-4 w-fit hover:bg-[#6B78C2] hover:text-white transition-colors">
             GET STARTED
-          </a>
+          </button>
         </div>
 
         {/* Right Image */}
