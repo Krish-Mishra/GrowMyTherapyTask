@@ -25,16 +25,16 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="w-full bg-[#F2F3EC] py-[100px] flex justify-center px-10">
-      <div className="w-full max-w-[1200px] grid grid-cols-12 gap-16 px-8">
-        <div className="col-span-4 flex flex-col pt-4">
-          <h2 className="text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
+    <div className="w-full bg-[#F2F3EC] py-[60px] lg:py-[100px] flex justify-center px-6 md:px-10">
+      <div className="w-full max-w-[1200px] grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 px-0 md:px-8">
+        <div className="lg:col-span-4 flex flex-col pt-4 text-center lg:text-left">
+          <h2 className="text-[2rem] md:text-[2.75rem] leading-[1.2] text-[#6B78C2] font-serif font-extralight mb-12">
             Frequently Asked <br />
             <span className="italic text-[#6E7E65] font-allura">Questions</span>
           </h2>
         </div>
 
-        <div className="col-span-8 flex flex-col border-t border-[#393E50]/20">
+        <div className="lg:col-span-8 flex flex-col border-t border-[#393E50]/20">
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
